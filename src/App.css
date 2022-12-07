@@ -1,0 +1,70 @@
+.wrap {
+  width: 100%;
+}
+
+.boxTop {
+  width: 100%;
+}
+
+.boxTop > h2 {
+  font-size: 46px;
+  text-align: center;
+  height: 80px;
+  border-bottom: 2px solid #000;
+  line-height: 80px;
+  font-weight: 500;
+}
+
+.boxTop > ul > li {
+  height: 120px;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #000;
+}
+
+.boxTop > ul > li > input {
+  width: 300px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.boxTop > ul > li > button {
+  border: 1px solid #000;
+  width: 100px;
+  height: 54px;
+  background: #fff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.boxTop > ul > li > button:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.boxBottom {
+  display: flex;
+}
+
+.boxLeft {
+  width: 50%;
+  height: 600px;
+  background: #534355;
+}
+
+.boxLeft > h2,
+.boxRight > h2 {
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.boxRight {
+  width: 50%;
+  height: 600px;
+  background: #587352;
+}

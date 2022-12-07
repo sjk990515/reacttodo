@@ -1,0 +1,8 @@
+.TodoTitle > h1 {
+  font-size: 46px;
+  text-align: center;
+  height: 80px;
+  border-bottom: 2px solid #000;
+  line-height: 80px;
+  font-weight: 500;
+}

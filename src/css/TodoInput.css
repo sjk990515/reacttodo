@@ -1,0 +1,29 @@
+.TodoInput {
+  width: 1100px;
+  margin: 0 auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+.TodoInput > input[type="text"] {
+  border: 1px solid #000;
+  width: 400px;
+  border-right: 0;
+}
+.TodoInput > input:first-child[type="text"] {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.TodoInput > button {
+  width: 100px;
+  height: 50px;
+  background: #727272;
+  color: #fff;
+  font-weight: 500;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
